@@ -1,7 +1,7 @@
 import { css, useTheme } from '@emotion/react';
 import emotionNormalize from 'emotion-normalize';
 
-import ManropeMedium from '../assets/fonts/Manrope-Medium.ttf'
+import ManropeMedium from '../assets/fonts/Manrope-Medium.ttf';
 import ManropeRegular from '../assets/fonts/Manrope-Regular.ttf';
 import ManropeSemiBold from '../assets/fonts/Manrope-SemiBold.ttf';
 import MontserratRegular from '../assets/fonts/Montserrat-Regular.ttf';
@@ -191,17 +191,17 @@ export const GlobalStyles = () => {
       src: url(${ManropeSemiBold}) format('truetype');
     }
 
-      @font-face {
-    font-family: 'Montserrat';
-    font-weight: 400;
-    src: url(${MontserratRegular}) format('truetype');
-  }
+    @font-face {
+      font-family: 'Montserrat';
+      font-weight: 400;
+      src: url(${MontserratRegular}) format('truetype');
+    }
 
-  @font-face {
-    font-family: 'Montserrat';
-    font-weight: 600;
-    src: url(${MontserratSemiBold}) format('truetype');
-  }
+    @font-face {
+      font-family: 'Montserrat';
+      font-weight: 600;
+      src: url(${MontserratSemiBold}) format('truetype');
+    }
 
     /* ========================= /Fonts ========================= */
 
@@ -229,7 +229,7 @@ export const GlobalStyles = () => {
     }
 
     ::-webkit-scrollbar-thumb {
-      background-color: #8A8A89;
+      background-color: #8a8a89;
       border-radius: 8px;
     }
 
@@ -239,7 +239,7 @@ export const GlobalStyles = () => {
 
     /* Firefox */
     * {
-      scrollbar-color: #8A8A89 rgba(239, 237, 232, 0.1);
+      scrollbar-color: #8a8a89 rgba(239, 237, 232, 0.1);
     }
 
     /* ========================= /Scroll styles ========================= */

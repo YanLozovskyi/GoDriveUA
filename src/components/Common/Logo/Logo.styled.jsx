@@ -6,9 +6,8 @@ export const StyledLink = styled(Link)`
   align-items: center;
   gap: 15px;
 
-  :hover{
+  :hover {
     color: ${({ theme }) => theme.colors.accent};
-   
   }
 
   :hover svg {

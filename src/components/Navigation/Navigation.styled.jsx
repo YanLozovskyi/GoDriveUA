@@ -15,7 +15,7 @@ export const Link = styled(NavLink)`
   &.active {
     color: ${({ theme }) => theme.colors.accent};
   }
-  
+
   transition: color 250ms ease-in-out;
 
   :hover {

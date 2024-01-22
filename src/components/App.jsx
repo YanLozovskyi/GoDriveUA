@@ -1,12 +1,15 @@
-import { Navigate, RouterProvider, createBrowserRouter } from "react-router-dom";
-import SharedLayout from "./SharedLayout";
+import {
+  Navigate,
+  RouterProvider,
+  createBrowserRouter,
+} from 'react-router-dom';
+import SharedLayout from './SharedLayout';
 
 const router = createBrowserRouter([
   {
     path: '/',
     element: <SharedLayout />,
     errorElement: <Navigate to="/" />,
-
     children: [
       {
         index: true,
@@ -28,17 +31,17 @@ const router = createBrowserRouter([
           let { Favorite } = await import('../pages/Favorite/Favorite');
           return { Component: Favorite };
         },
-      }
-    ]
-  }
-])
+      },
+    ],
+  },
+]);
 
 const App = () => {
   return (
     <>
       <RouterProvider router={router} />
     </>
-  )
+  );
 };
 
 export default App;
