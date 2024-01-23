@@ -19,4 +19,9 @@ export const theme = {
   boxShadow: {
     shadowCard: '0px 0px 15px 0px #bbbbbb, inset 0px 0px 10px 0px #bbbbbb',
   },
+  breakpoint: {
+    mobile: '320px',
+    tablet: '768px',
+    desktop: '1200px',
+  },
 };

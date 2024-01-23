@@ -217,6 +217,7 @@ export const GlobalStyles = () => {
     body {
       font-family: 'Manrope', sans-serif;
       font-weight: 400;
+      font-size: 14px;
       color: ${theme.colors.textGrey_100};
       background-color: ${theme.colors.backgroundMain};
     }
